@@ -1,7 +1,7 @@
 composerexample
 ===============
 
-Composer Example
+Composer Example - Using an Apache Server
 
 
 Add this to your vhosts.conf file
@@ -18,21 +18,15 @@ Add this to your vhosts.conf file
 	</VirtualHost>
 ```	
 
-...
-
 Add this to your hosts file - /etc/hosts
 ```
 	127.0.0.1 composerexample.localhost
 ```
 
-...
-
 Create a site folder
 ```
 	/Users/macgmercer/Sites/composerexample
 ```	
-
-...
 
 Create a .htaccess file - /Users/macgmercer/Sites/composerexample/.htaccess
 ```
@@ -47,8 +41,6 @@ Create a .htaccess file - /Users/macgmercer/Sites/composerexample/.htaccess
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule ^ index.php [QSA,L]	
 ```
-
-...
 
 Install composer in your project:
 ```
@@ -84,8 +76,6 @@ Create index.php - /Users/macgmercer/Sites/composerexample/index.php
 
 	print 'The plural of ' . $singular . '  is ' . $plural . '. Squeek(s)!';
 ```
-...
-
 Restart your apache server
 
 
