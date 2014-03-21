@@ -27,10 +27,6 @@ Add this to your hosts file - /etc/hosts
 
 ...
 
-Restart your apache server
-
-...
-
 Create a site folder
 ```
 	/Users/macgmercer/Sites/composerexample
@@ -88,5 +84,9 @@ Create index.php - /Users/macgmercer/Sites/composerexample/index.php
 
 	print 'The plural of ' . $singular . '  is ' . $plural . '. Squeek(s)!';
 ```
+...
+
+Restart your apache server
+
 
 	
