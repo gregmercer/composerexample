@@ -4,7 +4,7 @@ composerexample
 Composer Example - Using an Apache Server
 
 
-Add this to your vhosts.conf file
+Add this to your vhosts.conf file - /Applications/acquia-dev-desktop/apache/conf/vhosts.conf
 ```
 	<VirtualHost *>
 	  ServerName composerexample.localhost
