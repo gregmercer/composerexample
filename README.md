@@ -56,7 +56,7 @@ Create a .htaccess file - /Users/macgmercer/Sites/composerexample/.htaccess
 
 Install composer in your project:
 ```
-  cd /Users/macgmercer/Sites/composerexample
+	cd /Users/macgmercer/Sites/composerexample
 	curl -s https://getcomposer.org/installer | php
 ```
 
