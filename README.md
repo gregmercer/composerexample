@@ -5,7 +5,7 @@ Composer Example
 
 
 Add this to your vhosts.conf file
-
+'''
 	<VirtualHost *>
 	  ServerName composerexample.localhost
 	  DocumentRoot "/Users/macgmercer/Sites/composerexample"
@@ -16,11 +16,14 @@ Add this to your vhosts.conf file
 	    Allow from all
 	  </Directory>
 	</VirtualHost>
+'''	
 
 ...
 
 Add this to your hosts file - /etc/hosts
+'''
 	127.0.0.1 composerexample.localhost
+'''
 
 ...
 
@@ -29,12 +32,14 @@ Restart your apache server
 ...
 
 Create a site folder
+'''
 	/Users/macgmercer/Sites/composerexample
+'''	
 
 ...
 
 Create a .htaccess file - /Users/macgmercer/Sites/composerexample/.htaccess
-
+'''
 	RewriteEngine On
 
 	# Some hosts may require you to use the `RewriteBase` directive.
@@ -45,6 +50,7 @@ Create a .htaccess file - /Users/macgmercer/Sites/composerexample/.htaccess
 
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteRule ^ index.php [QSA,L]	
+'''
 
 ...
 
