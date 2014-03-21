@@ -75,6 +75,7 @@ Create index.php - /Users/macgmercer/Sites/composerexample/index.php
 	$plural = Inflector::pluralize($singular);
 
 	print 'The plural of ' . $singular . '  is ' . $plural . '. Squeek(s)!';
+	
 ```
 Restart your apache server
 
